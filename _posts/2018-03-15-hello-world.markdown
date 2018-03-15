@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
+title:      "Hello world"
+subtitle:   " \"这世界我来了\""
+date:       2018-03-15 19:00:00
+author:     "bruce"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
