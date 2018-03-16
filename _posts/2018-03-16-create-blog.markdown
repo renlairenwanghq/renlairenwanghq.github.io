@@ -16,7 +16,8 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
  GitHub pages 是Github提供的一个服务，我们可以免费的在上面搭建自己的网站，所以很多人利用GitHub pages作为自己的个人博客站点。
 
-####2.搭建方式
+
+### 2搭建方式
 
  * 开通自己的`github.io` repo
  * 设置jekyll主题
@@ -63,7 +64,7 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
    ​
 
-####2.4 设置jekyll主题 
+#### 2.4 设置jekyll主题 
 
  Jekyll 是目前非常流行的静态网站生成器(static website generator)。静态网站即只包含HTML, CSS 和 Javascript，`github.io`默认采用`Jekyll`作为建站工具。`Jekyll`已经有一个非常庞大的社区，这就意味着，你完全可以借鉴别人已经造好的轮子。
 
