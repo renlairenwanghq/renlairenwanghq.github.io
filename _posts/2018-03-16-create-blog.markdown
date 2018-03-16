@@ -17,17 +17,17 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
  GitHub pages 是Github提供的一个服务，我们可以免费的在上面搭建自己的网站，所以很多人利用GitHub pages作为自己的个人博客站点。
 
- ### 2.搭建方式
+####2.搭建方式
 
  * 开通自己的`github.io` repo
  * 设置jekyll主题
  * 发布博客
 
- #### 2.1 开通github帐号
+#### 2.1 开通github帐号
 
  访问官网地址，开通github帐号。gitbub官网：https://github.com/
 
- #### 2.2 创建repo
+#### 2.2 创建repo
 
  创建新的repo， 注意Repository name的格式保持**格式<username.github.io** 其中<username与你的github账户名一致。
 
@@ -35,7 +35,7 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
  ![](../img/2018-03-16-create-blog/user-repo@2x.png)
 
- #### 2.3 编写简单的博客首页
+#### 2.3 编写简单的博客首页
 
  其实经过上一步，已经存在博客地址了，博客的地址格式为`https://<username.github.io`，但是需要自己便也博客的页面。在这个库中完全可以只上传一个`index.html`，但是这样会丧失很多灵活性。
 
@@ -64,7 +64,7 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
    ​
 
- ####2.4 设置jekyll主题 
+####2.4 设置jekyll主题 
 
  Jekyll 是目前非常流行的静态网站生成器(static website generator)。静态网站即只包含HTML, CSS 和 Javascript，`github.io`默认采用`Jekyll`作为建站工具。`Jekyll`已经有一个非常庞大的社区，这就意味着，你完全可以借鉴别人已经造好的轮子。
 
