@@ -138,6 +138,10 @@ GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20
 
    ```
    $ cd _posts
+   $ vi tmp.markdown
+   $ git add .
+   $ git commit -m "modify"
+   $ git push origin master
    ```
 
    ​
