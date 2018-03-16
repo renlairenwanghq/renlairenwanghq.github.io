@@ -11,6 +11,7 @@ tags:
 ---
 
 ## 使用github pages建立自己的博客
+
 ### 1.简介
 GitHub是一个面向[开源](https://baike.baidu.com/item/%E5%BC%80%E6%BA%90/20720669)及私有[软件](https://baike.baidu.com/item/%E8%BD%AF%E4%BB%B6/12053)项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。
 
