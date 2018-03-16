@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      ""
+title:      "github pages"
 subtitle:   " \"这世界我来了\""
 date:       2018-03-15 19:00:00
 author:     "bruce"
