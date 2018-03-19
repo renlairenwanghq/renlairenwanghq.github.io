@@ -1,5 +1,9 @@
 ### 简介
 
+Android NDK 是在SDK前面又加上了“原生”二字，即Native Development Kit，因此又被Google称为“NDK”。
+
+众所周知，Android程序运行在Dalvik虚拟机中，NDK允许用户使用类似C / C++之类的原生代码语言执行部分程序。[NDK百度百科](https://baike.baidu.com/item/NDK/5967464?fr=aladdin)
+
 * 使用安卓NDK编译程序
 * 根据NDK制作编译工具链，并使用该工具链编译程序
 
@@ -118,7 +122,7 @@ a.out  d.out  libc++_shared.so
 
 ### 二.使用编译工具链编译
 
-#### 1.制作編譯工具鏈
+#### 1.制作編譯工具鏈(参考资料3 [HOWTO Cross compiling on Android](https://gist.github.com/Tydus/11109634))
 
 ```
 $ cd android-ndk-r10e
@@ -184,8 +188,19 @@ https://stackoverflow.com/questions/34200302/errorundefined-reference-to-pthread
 
 https://stackoverflow.com/questions/4610086/pthread-cancel-alternatives-in-android-ndk
 
+### 四.遇见的问题及解决方式
+
+unused DT entry: type 0x1d arg
+https://stackoverflow.com/questions/33206409/unused-dt-entry-type-0x1d-arg
+
 ### 参考资料:
 
 (1) [NDK C++库的支持](https://developer.android.com/ndk/guides/cpp-support.html) （需要翻墙才能访问）
 
 (2) [bionic](https://en.wikipedia.org/wiki/Bionic_(software))
+
+(3) [HOWTO Cross compiling on Android](https://gist.github.com/Tydus/11109634)
+
+(4) [api level 与 安卓版本对照表](https://en.wikipedia.org/wiki/Android_version_history) 
+
+
